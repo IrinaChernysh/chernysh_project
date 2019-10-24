@@ -1,0 +1,126 @@
+* {margin:0;padding:0;outline:none; border:0;}
+wrapper, header, sidebar, content, footer {
+ display: block;
+}
+#wrapper{ 
+width: 900px;
+outline: 3px solid #000000;
+padding: 10px;
+margin: 0 auto;
+}
+#header{
+height: 200px;
+margin-bottom: 10px;
+background-color: #F96;
+width: 900px;
+background-image: url(../images/header-bg.png);
+} 
+#sidebar{
+background-color: #87CEEB;
+margin-bottom: 10px;
+width: 180px;
+padding: 10px;
+float: right;
+}
+#content{
+margin-bottom: 10px;
+width: 670px;
+padding: 10px;
+}
+#footer{
+height: 80px;
+margin-bottom: 10px;
+background-color: #09F;
+}
+.clear{
+ clear: both;
+}
+center{
+margin: 0 0 10px 50px;
+}
+.left{
+float: left;
+margin: 10px 10px 10px 10px;
+}
+.right{
+float: right;
+margin: 10px 10px 10px 10px;
+} 
+#menu {
+margin:20px 0 0 150px;
+position: absolute;
+top:150px;
+right:870px;
+}
+#menu ul { list-style:none; }
+#menu ul li {
+display:inline; 
+float:left;
+margin-bottom:20px; 
+}
+#menu ul li a {
+padding:20px;
+background: rgba(255,138,30,0.3);
+text-decoration: none;
+font: bold 14px Helvetica, Sans-Serif;
+letter-spacing: -1px; color: #402e16;
+ text-shadow: #eee 0px 0px 2px;
+}
+#menu ul li a.active { background: rgba(255,138,30,0.8) }
+#menu ul li a:hover{
+text-decoration: underline;
+background: -webkit-gradient(linear, right bottom, left top, color-stop(0, rgb(237,227,112)), colorstop(0.72, rgb(255,173,10)));
+background: -moz-linear-gradient(right bottom, rgb(237,227,112) 0%, rgb(255,173,10) 72%);
+background-color:rgb(255,173,10);
+-moz-opacity:.90; filter:alpha(opacity=90); opacity:.90; }
+} 
+
+table {
+font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+font-size: 14px;
+border-radius: 10px;
+border-spacing: 0;
+text-align: center;
+}
+th {
+background: #BCEBDD;
+color: white;
+text-shadow: 0 1px 1px #2D2020;
+padding: 10px 20px;
+}
+th, td {
+border-style: solid;
+border-width: 0 1px 1px 0;
+border-color: white;
+}
+th:first-child, td:first-child {
+text-align: left;
+}
+th:first-child {
+border-top-left-radius: 10px;
+}
+th:last-child {
+border-top-right-radius: 10px;
+border-right: none;
+}
+td {
+padding: 10px 20px;
+background: #F8E391;
+}
+tr:last-child td:first-child {
+border-radius: 0 0 0 10px;
+}
+tr:last-child td:last-child {
+border-radius: 0 0 10px 0;
+}
+tr td:last-child {
+border-right: none;
+}
+input[type=submit] {
+    padding:5px 15px; 
+    background:#ccc; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
